@@ -1,8 +1,8 @@
 # THYRA Framework
 
-THYRA (Thermal-HYdraulic Reactor Analysis) is a reduced-order, multi-scale modelling framework for predictive thermal-hydraulic analysis of advanced reactor coolant systems.
+THYRA (Thermal-HYdraulic Reactor Analysis) is a reduced-order, multi-scale modelling framework for predictive thermal-hydraulic analysis of fusion breeding blanket cooling systems.
 
-The framework is designed to provide computationally efficient engineering-scale prediction of fusion blanket thermal-hydraulics, with primary focus on Water-Cooled Lithium-Lead (WCLL) technology.
+The framework provides computationally efficient, engineering-scale evaluation of complex coolant architectures, with primary application to Water-Cooled Lithium-Lead (WCLL) blanket technology.
 
 ---
 
