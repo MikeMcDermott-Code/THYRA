@@ -10,10 +10,7 @@ The framework focuses on computationally efficient transient evaluation of coola
 
 THYRA is currently organised into two principal modelling work packages corresponding to different spatial scales.
 
----
-
-### 1. System-Level Modelling (0D / 1D)
-
+### 1. THYRA-NET (0D/1D system network solver)
 A modular, network-based system code implemented in Modelica for transient thermal-hydraulic prediction.
 
 **Work Package 1A – Blanket Scale (WCLL-TBM)**  
@@ -26,11 +23,11 @@ Extension of the system model toward tokamak-scale integration and plant-level t
 
 ---
 
-### 2. Cross-Sectional Conduction Modelling (1D / 2D) – SLICE
+### 2. THYRA-SLICE (1D/2D cross-sectional conduction solver)
 
 A cross-sectional conduction solver developed to resolve local temperature gradients and inform reduced-order closures within the system model.
 
-SLICE supports multi-scale consistency through effective thermal resistance modelling and structural heat transfer characterisation.
+SLICE (Spatial Low-order Integrated Conduction Energy model) supports multi-scale consistency through effective thermal resistance modelling and structural heat transfer characterisation.
 
 ---
 
