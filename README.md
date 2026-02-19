@@ -1,57 +1,36 @@
 # THYRA Framework
 
-THYRA (Thermal-HYdraulic Reactor Analysis) is a reduced-order, multi-scale modelling framework for predictive thermal-hydraulic analysis of fusion breeding blanket cooling systems.
+THYRA (Thermal-HYdraulic Reactor Analysis) is a reduced-order, multi-scale modelling framework for predictive thermal-hydraulic analysis of advanced reactor coolant systems.
 
-The framework provides computationally efficient, engineering-scale evaluation of complex coolant architectures, with primary application to Water-Cooled Lithium-Lead (WCLL) blanket technology.
-
----
-
-## Vision
-
-THYRA bridges the gap between:
-
-- High-fidelity CFD simulations (computationally expensive)
-- Simplified lumped parameter approaches (insufficiently predictive)
-
-The framework prioritises:
-
-- Modular architecture
-- Reduced-order physics closure
-- Multi-scale modelling
-- Robust transient capability
-- Engineering design applicability
+The framework focuses on computationally efficient transient evaluation of coolant network behaviour across multiple spatial scales, with initial application to Water-Cooled Lithium-Lead (WCLL) blanket technology.
 
 ---
 
 ## Framework Structure
 
-THYRA currently comprises two principal modelling levels:
-
-### 1. System-Level Solver
-A modular network-based system code implemented in Modelica for blanket-scale thermal-hydraulic prediction.
-
-### 2. SLICE
-A cross-sectional conduction solver used to inform reduced-order closures and effective thermal resistance modelling.
+THYRA is currently organised into two principal modelling work packages corresponding to different spatial scales.
 
 ---
 
-## Applications
+### 1. System-Level Modelling (0D / 1D)
 
-- Fusion blanket thermal-hydraulics (WCLL focus)
-- Water and liquid metal coolant systems
-- Multi-scale reactor modelling research
+A modular, network-based system code implemented in Modelica for transient thermal-hydraulic prediction.
+
+**Work Package 1A – Blanket Scale (WCLL-TBM)**  
+Reduced-order modelling and validation of the WCLL Test Blanket Module.
+
+(Associated publication to be linked here.)
+
+**Work Package 1B – Reactor / Plant Scale (EU-DEMO)**  
+Extension of the system model toward tokamak-scale integration and plant-level transient analysis.
 
 ---
 
-## Development Status
+### 2. Cross-Sectional Conduction Modelling (1D / 2D) – SLICE
 
-Active research development.
+A cross-sectional conduction solver developed to resolve local temperature gradients and inform reduced-order closures within the system model.
 
-Planned features include:
-
-- Multi-scale coupling formalisation
-- Validation benchmark suite
-- Extended coolant physics modules
+SLICE supports multi-scale consistency through effective thermal resistance modelling and structural heat transfer characterisation.
 
 ---
 
